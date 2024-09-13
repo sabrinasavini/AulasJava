@@ -1,5 +1,5 @@
 package Aula04;
-
+//Exemplo 1
 public class Exemplos {
     public static void main(String[] args) {
         int x = 50;
@@ -54,5 +54,43 @@ public class Exemplos {
 
         System.out.println("valor com desconto = " + (preco - preco * desconto));
 
+
+        //Exemplo 7 - Switch
+        corSemaforo = "Roxo";
+
+        switch (corSemaforo){
+            case "Verde":
+                System.out.println("Siga");
+                break;
+            case "Amarelo":
+                System.out.println("Atenção");
+                break;
+            case "Vermelho":
+                System.out.println("Pare");
+                break;
+            default:
+                System.out.println("Cor Inválida");
+        }
+
+        //Exemplo 8 - Criar menu
+        int opcao=6;
+        System.out.println("Escolha uma opção");
+        System.out.println("Digite 22 se quiser falar com o Bolsonaro");
+        System.out.println("Digite 13 se quiser picanha");
+        System.out.println("Digite 6 se quiser falar com sua tia");
+        switch (opcao)
+        {
+            case 22:
+                System.out.println("faz o L agora");
+                break;
+
+            case 13:
+                System.out.println("não tem picanha");
+                break;
+
+            case 6:
+                System.out.println("oiiii");
+                break;
+        }
     }
 }
