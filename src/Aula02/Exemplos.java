@@ -1,4 +1,4 @@
-package Aula04;
+package Aula02;
 //Exemplo 1
 public class Exemplos {
     public static void main(String[] args) {

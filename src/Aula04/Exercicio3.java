@@ -7,9 +7,9 @@ public class Exercicio3 {
 
         Scanner scanner=new Scanner(System.in);
         System.out.println("Digite o código");
-
         int eletronicos= scanner.nextInt();
         switch (eletronicos){
+
             case 1:
                 System.out.println("Eletrônicos");
                 break;
