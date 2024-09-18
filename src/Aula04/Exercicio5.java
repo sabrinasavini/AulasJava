@@ -13,7 +13,7 @@ public class Exercicio5 {
 
     }
         else {
-            System.out.println("Você não atingiu o número de horas necessárias");
+            System.out.println("Você não atingiu o número de horas necessárias.");
         }
 }}
 
