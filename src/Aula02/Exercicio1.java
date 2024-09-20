@@ -1,6 +1,5 @@
 package Aula02;
-import java.util.Scanner;
-
+//Declaração e Inicialização de Variáveis
 public class Exercicio1 {
     public static void main(String[] args) {
         int idade = 78;
