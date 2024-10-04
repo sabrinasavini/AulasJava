@@ -1,8 +1,8 @@
-package Aula06;
+package Aula06.Exemplos;
 
 import java.util.Scanner;
 
-public class Exemplos1e2 {
+public class Exemplo1 {
     public static void main(String[] args) {
         //Criação de Inicialização de uma matriz
         int [][] matriz =  new int[2][3];
