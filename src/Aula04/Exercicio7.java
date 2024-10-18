@@ -1,7 +1,10 @@
 package Aula04;
 
+import java.util.Scanner;
+
 public class Exercicio7 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int valor1 = 1;
         int valor2 = 5;
         double resultado;

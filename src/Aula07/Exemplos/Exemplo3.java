@@ -1,4 +1,4 @@
-package Aula07;
+package Aula07.Exemplos;
 
 public class Exemplo3 {
     public static void main(String[] args) {

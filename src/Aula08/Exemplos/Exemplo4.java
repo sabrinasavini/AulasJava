@@ -1,7 +1,6 @@
-package Aula08;
+package Aula08.Exemplos;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class Exemplo4 {

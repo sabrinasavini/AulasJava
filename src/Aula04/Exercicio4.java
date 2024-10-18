@@ -17,7 +17,8 @@ public class Exercicio4 {
             
         } else if (valor1>5000) {
             System.out.println("Sua comissão é de " + (valor1*15f)/100);
-            
+
+            scanner.close();
         }
     }
 }
