@@ -8,21 +8,18 @@ public class Exercicio9 {
         System.out.println("Digite um horário e descubra seu turno");
         int hora = sc.nextInt();
 
-        String turno;
-        if (hora >= 5 && hora < 12) {
-            turno = "manhã";
-        }
-        else if (hora >= 12 && hora < 18) {
-            turno = "tarde";
-        }
-        else if (hora >= 18 && hora < 22) {
-            turno = "noite";
-        }
-        else {
-            turno = "madrugada";
-
-            System.out.println("Seu turno é durante a " + turno);
-
+        switch (hora){
+                case 5: case 6: case 7: case 8: case 9: case 10: case 11: case 12:
+                System.out.println("Turno da manhã");
+                break;
+                case 13: case 14: case 15: case 16: case 17:
+                System.out.println("Turno da tarde");
+                break;
+                case 18: case 19: case 20: case 21: case 22:
+                System.out.println("Turno da noite");
+                break;
+                case 23: case 0: case 1: case 2: case 3: case 4:
+                System.out.println("Turno da madrugada");
             sc.close();
         }
     }

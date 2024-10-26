@@ -35,5 +35,6 @@ public class Desafio1_flexivel {
             tabela += "\n";
         }
         System.out.println(tabela);
+        scanner.close();
     }
 }

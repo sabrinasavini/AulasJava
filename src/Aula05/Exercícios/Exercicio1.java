@@ -7,6 +7,6 @@ public class Exercicio1 {
             System.out.println(i);
             
         }
-        System.out.println("boa!!!!");
+        System.out.println("Fim!!!!");
     }
 }
